@@ -1,0 +1,17 @@
+{
+  "title": "Service status",
+  "monitors": [
+    {
+      "name": "Website",
+      "url": "https://example.com",
+      "expectStatus": 200,
+      "intervalSeconds": 60
+    },
+    {
+      "name": "API",
+      "url": "https://example.com/health",
+      "expectStatus": 200,
+      "intervalSeconds": 30
+    }
+  ]
+}
