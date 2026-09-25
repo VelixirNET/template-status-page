@@ -1,0 +1,19 @@
+{
+  "name": "Status page",
+  "tagline": "A public status page for your services, with no dependencies.",
+  "description": "Polls a list of HTTP endpoints on a schedule, shows uptime and latency as a bar strip, and exposes a JSON API. One Go file, no database and no agent. The monitor list comes from an environment variable, so you can repoint the whole page from the dashboard without touching the repo.",
+  "language": "Go",
+  "runtimeVersion": "1.23",
+  "accent": "#34D399",
+  "tags": [
+    "No dependencies",
+    "JSON API",
+    "Self-hosted"
+  ],
+  "topics": [
+    "go",
+    "status-page",
+    "uptime-monitor"
+  ],
+  "alwaysOn": true
+}
